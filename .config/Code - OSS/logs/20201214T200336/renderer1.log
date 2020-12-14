@@ -1,0 +1,2 @@
+[2020-12-14 20:04:59.163] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/maninder/.zshrc.pre-oh-my-zsh'
+[2020-12-14 20:04:59.163] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/maninder/.zshrc.pre-oh-my-zsh'
