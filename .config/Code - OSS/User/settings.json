@@ -1,6 +1,0 @@
-{
-    "workbench.iconTheme": "material-icon-theme",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    }
-}

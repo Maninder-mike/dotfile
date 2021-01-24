@@ -1,3 +1,0 @@
-[2020-12-14 19:59:29.683] [sharedprocess] [info] main {"machineId":"879909d36ca888a394d3cb86547c936997d0390929924c267fbc36ee90c0ad56","windowId":2}
-[2020-12-14 19:59:29.718] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/maninder/.config/Code - OSS/User/snippets'
-[2020-12-14 20:00:09.708] [sharedprocess] [info] Starting to clean up unused language packs.
