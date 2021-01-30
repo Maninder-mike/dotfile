@@ -1,0 +1,40 @@
+1611426428179	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611426429614	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611427028180	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611427028180	Sync.Service	INFO	Starting sync at 2021-01-24 00:07:08 in browser session EIJTLLeR6xC5
+1611427028181	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611427028188	Sync.Status	INFO	Resetting Status.
+1611427028188	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611427028190	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611427028190	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611427028191	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611427028191	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611427028191	Sync.BrowserIDManager	INFO	Getting sync key
+1611427028192	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611427028194	Sync.BrowserIDManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1611427028194	Sync.BrowserIDManager	DEBUG	Getting a token using OAuth
+1611427028194	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611427028194	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611427028195	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611427028195	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1611427028196	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1611427041293	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398919 - NS_ERROR_NET_INTERRUPT
+1611427041294	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:298:13
+1611427041295	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1611427041295	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1611427041297	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:298:13
+1611427041305	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1611427041737	Sync.Resource	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections
+1611427041737	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed with status 401
+1611427041738	Sync.Service	INFO	Logging out
+1611427041738	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611427041740	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1611427041740	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1611427041741	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1611427041742	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1611427041742	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections","status":401,"success":false,"headers":{"alt-svc":"clear","content-length":"1","content-type":"application/json","date":"Sat, 23 Jan 2021 18:37:18 GMT","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2","x-weave-timestamp":"1611427038.67"},"obj":0}
+1611427041744	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1611427041744	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1611427041760	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections","status":401,"success":false,"headers":{"alt-svc":"clear","content-length":"1","content-type":"application/json","date":"Sat, 23 Jan 2021 18:37:18 GMT","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2","x-weave-timestamp":"1611427038.67"},"obj":0}

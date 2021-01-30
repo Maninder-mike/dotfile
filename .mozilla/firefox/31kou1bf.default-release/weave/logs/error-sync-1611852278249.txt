@@ -1,0 +1,42 @@
+1611851588216	Sync.LogManager	DEBUG	Flushing file log
+1611851588238	Sync.LogManager	DEBUG	Log cleanup threshold time: 1610987588238
+1611851588361	Sync.LogManager	DEBUG	Done deleting files.
+1611852188212	Sync.Service	DEBUG	User-Agent: Firefox/85.0 (Linux x86_64) FxSync/1.87.0.20210126121331.desktop
+1611852188212	Sync.Service	INFO	Starting sync at 2021-01-28 22:13:08 in browser session bcTLRjKlsPDe
+1611852188212	Sync.Service	DEBUG	In sync: should login.
+1611852188213	Sync.Service	INFO	User logged in successfully - verifying login.
+1611852188213	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611852188213	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611852188214	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611852188215	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611852188215	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1611852188215	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1611852188215	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611852188215	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1611852188217	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611852189360	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611852239996	Sync.Service	DEBUG	User-Agent: Firefox/85.0 (Linux x86_64) FxSync/1.87.0.20210126121331.desktop
+1611852239996	Sync.Service	INFO	Starting sync at 2021-01-28 22:13:59 in browser session bcTLRjKlsPDe
+1611852239997	Sync.Service	DEBUG	In sync: should login.
+1611852239998	Sync.Service	DEBUG	Exception calling WrappedLock: LockException: Could not acquire lock. Label: "service.js: login".(resource://services-sync/util.js:62:5) JS Stack trace: LockException@util.js:62:5
+throwLockException@util.js:148:11
+WrappedLock@util.js:162:15
+WrappedCatch@util.js:133:27
+login@service.js:1049:66
+sync/<@service.js:1327:26
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1611852239999	Sync.Service	INFO	Cannot start sync: already syncing?
+1611852239999	Sync.Service	DEBUG	Not syncing: login returned false.
+1611852278245	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1611852278245	Sync.Service	DEBUG	verifyLogin failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1611852278246	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1611852278246	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611852278246	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1611852278246	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611852278246	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1611852278246	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611852278247	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1611852278248	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.js:1038:15) JS Stack trace: onNotify@service.js:1038:15
+1611852278248	Sync.Service	DEBUG	Not syncing: login returned false.
+1611852278249	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

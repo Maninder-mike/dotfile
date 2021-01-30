@@ -1,0 +1,39 @@
+1611575021650	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611575021652	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611575539603	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611575539603	Sync.Service	INFO	Starting sync at 2021-01-25 17:22:19 in browser session 4Dd5qSOW4Ysq
+1611575539604	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611575539614	Sync.Status	INFO	Resetting Status.
+1611575539615	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611575539617	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611575539618	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611575539622	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611575539622	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611575539623	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611575540210	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections
+1611575540212	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/configuration
+1611575540512	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/configuration
+1611575540513	Sync.Service	DEBUG	Fetching global metadata record
+1611575540514	Sync.Service	DEBUG	Weave Version: 1.86.0 Local Storage: 5 Remote Storage: 5
+1611575540514	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1611575540514	Sync.Service	INFO	Testing info/collections: {"forms":1611568862.15,"clients":1611565751.3,"extension-storage":1611565753.65,"addons":1611242758.31,"tabs":1611569464.2,"prefs":1611242755.59,"crypto":1607886078.62,"bookmarks":1611242341.19,"passwords":1611242314.15,"meta":1607975944.48,"history":1611569464.85}
+1611575540514	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1607886078.62
+1611575540514	Sync.Synchronizer	DEBUG	Refreshing client list.
+1611575540516	Sync.Engine.Clients	INFO	0 outgoing items pre-reconciliation
+1611575540516	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1611575540907	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611575540912	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/storage/clients?full=1&limit=1000
+1611575540917	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 4 reconciled.
+1611575540917	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1611575540918	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1611575540920	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.unknown_fail
+1611575540920	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1611575540920	Sync.ErrorHandler	DEBUG	clients was interrupted due to the application shutting down
+1611575540920	Sync.Synchronizer	INFO	clients was interrupted by shutdown; no other engines will sync
+1611575540920	Sync.Synchronizer	WARN	Client engine sync failed. Aborting.
+1611575540921	Sync.Declined	DEBUG	Handling remote declined: []
+1611575540921	Sync.Declined	DEBUG	Handling local declined: []
+1611575540921	Sync.Declined	DEBUG	Declined changed? false
+1611575540921	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1611575540921	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1611575540922	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

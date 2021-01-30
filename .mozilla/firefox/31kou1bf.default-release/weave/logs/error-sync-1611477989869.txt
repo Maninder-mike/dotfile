@@ -1,0 +1,37 @@
+1611477299828	Sync.LogManager	DEBUG	Flushing file log
+1611477299829	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611477299829	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611477299831	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611477299831	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611477299838	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611477299871	Sync.LogManager	DEBUG	Log cleanup threshold time: 1610613299871
+1611477299929	Sync.LogManager	DEBUG	Done deleting files.
+1611477300938	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611477346656	Sync.RemoteTabs	INFO	Generating tab list with filter
+1611477346656	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1611477899822	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611477899822	Sync.Service	INFO	Starting sync at 2021-01-24 14:14:59 in browser session kudRxEAIjpN6
+1611477899822	Sync.Service	DEBUG	In sync: should login.
+1611477899823	Sync.Service	INFO	User logged in successfully - verifying login.
+1611477899824	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611477899824	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611477899825	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611477899825	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611477899826	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1611477899826	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1611477899826	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611477899826	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1611477899828	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611477900913	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611477989861	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1611477989861	Sync.Service	DEBUG	verifyLogin failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1611477989861	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1611477989861	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611477989861	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1611477989862	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1611477989862	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1611477989862	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611477989864	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611477989867	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.js:1038:15) JS Stack trace: onNotify@service.js:1038:15
+1611477989867	Sync.Service	DEBUG	Not syncing: login returned false.
+1611477989868	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

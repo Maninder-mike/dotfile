@@ -1,0 +1,22 @@
+1611317810302	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611317873019	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1611317873019	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611317873025	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611317873029	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611317881127	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1611317881127	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1611317881134	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611317881135	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611317881135	Sync.Service	INFO	Starting sync at 2021-01-22 17:48:01 in browser session WgFLbUpgKVvt
+1611317881136	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611317881137	Sync.Status	INFO	Resetting Status.
+1611317881138	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611317881139	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611317881139	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611317881141	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611317881141	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611317881142	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611317882041	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611317882041	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611317882041	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1611317882044	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

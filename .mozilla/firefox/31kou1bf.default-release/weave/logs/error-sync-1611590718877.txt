@@ -1,0 +1,30 @@
+1611590627060	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611590668850	Sync.RemoteTabs	INFO	Generating tab list with filter
+1611590668850	Sync.RemoteTabs	DEBUG	Processing client: {"id":"0ae7c49c7eabe8fd9f177a876d37b534","type":"client","name":"Firefox on HUAWEI LLD-AL20","clientType":"phone","lastModified":1611590081240,"tabs":[]}
+1611590668851	Sync.RemoteTabs	DEBUG	Processing client: {"id":"E-LZOwWwV8GO","type":"client","name":"mike’s Firefox on pop-os","clientType":"desktop","lastModified":1611166869040,"tabs":[]}
+1611590668851	Sync.RemoteTabs	DEBUG	Processing client: {"id":"JPa-zHJbrgeK","type":"client","name":"manjaro_mike","clientType":"desktop","lastModified":1610604395520,"tabs":[]}
+1611590668852	Sync.RemoteTabs	INFO	Final tab list has 3 clients with 12 tabs.
+1611590709865	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1611590709866	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611590709869	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611590709870	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611590714983	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611590716038	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611590717113	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1611590717113	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1611590717119	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611590717120	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611590717120	Sync.Service	INFO	Starting sync at 2021-01-25 21:35:17 in browser session FEaVgPtk76hl
+1611590717120	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611590717122	Sync.Status	INFO	Resetting Status.
+1611590717122	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611590717122	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1611590717122	FirefoxAccounts	DEBUG	getOAuthToken enter
+1611590717123	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1611590717123	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1611590717123	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1611590718396	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1611590718873	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611590718873	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611590718874	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1611590718877	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

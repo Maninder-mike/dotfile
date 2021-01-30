@@ -1,0 +1,18 @@
+1611501876426	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611501889676	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1611501889677	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611501889681	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611501889682	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611501897832	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1611501897832	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1611501897837	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611501897839	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611501897839	Sync.Service	INFO	Starting sync at 2021-01-24 20:54:57 in browser session 6UZNbBS5GWor
+1611501897840	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611501897842	Sync.Status	INFO	Resetting Status.
+1611501897842	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611501897842	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1611501898684	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611501898684	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611501898685	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1611501898690	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

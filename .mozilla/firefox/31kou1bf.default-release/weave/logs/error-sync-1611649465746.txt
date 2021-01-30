@@ -1,0 +1,19 @@
+1611649439928	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611649456729	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1611649456729	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611649456733	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1611649456734	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611649461568	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611649463311	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1611649463312	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1611649463318	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1611649463319	Sync.Service	DEBUG	User-Agent: Firefox/84.0.2 (Linux x86_64) FxSync/1.86.0.20210107154745.desktop
+1611649463319	Sync.Service	INFO	Starting sync at 2021-01-26 13:54:23 in browser session _HDPob3fSnXC
+1611649463320	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1611649463323	Sync.Status	INFO	Resetting Status.
+1611649463323	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1611649463323	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1611649465736	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177607653/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611649465737	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1611649465739	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1611649465744	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
