@@ -1,0 +1,9 @@
+[Default Applications]
+application/pdf=org.gnome.Evince.desktop
+image/jpeg=org.nomacs.ImageLounge.desktop
+
+[Added Associations]
+application/pdf=org.gnome.Evince.desktop;
+image/jpeg=org.nomacs.ImageLounge.desktop;
+image/svg+xml=org.nomacs.ImageLounge.desktop;
+application/x-executable=nautilus-autorun-software.desktop;

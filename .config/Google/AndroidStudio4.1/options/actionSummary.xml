@@ -1,0 +1,36 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="CheckForUpdate">
+        <ActionSummary times="4" last="1611424749619" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="1" last="1611424765967" />
+      </entry>
+      <entry key="CreateDesktopEntry">
+        <ActionSummary times="1" last="1611424416620" />
+      </entry>
+      <entry key="CreateLauncherScript">
+        <ActionSummary times="1" last="1611424399009" />
+      </entry>
+      <entry key="Exit">
+        <ActionSummary times="1" last="1611424670684" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="3" last="1611424345047" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="1" last="1611255366801" />
+      </entry>
+      <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
+        <ActionSummary times="3" last="1611424657775" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1611424429210" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="2" last="1611255545028" />
+      </entry>
+    </data>
+  </component>
+</application>

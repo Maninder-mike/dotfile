@@ -1,0 +1,14 @@
+[2021-01-25 15:18:55.790] [sharedprocess] [info] main {"machineId":"879909d36ca888a394d3cb86547c936997d0390929924c267fbc36ee90c0ad56","windowId":2}
+[2021-01-25 15:19:35.812] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-25 15:40:20.096] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2021-01-25 15:40:21.329] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme undefined
+[2021-01-25 15:40:21.385] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2021-01-25 15:40:21.473] [sharedprocess] [info] Extracted extension to /home/mike/.vscode-oss/extensions/.zhuangtongfa.material-theme-3.9.12: zhuangtongfa.material-theme
+[2021-01-25 15:40:21.473] [sharedprocess] [info] Renamed to /home/mike/.vscode-oss/extensions/zhuangtongfa.material-theme-3.9.12
+[2021-01-25 15:40:21.474] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme
+[2021-01-25 15:40:21.527] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2021-01-25 15:40:23.198] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme undefined
+[2021-01-25 15:40:23.929] [sharedprocess] [info] Extracted extension to /home/mike/.vscode-oss/extensions/.pkief.material-icon-theme-4.5.0: pkief.material-icon-theme
+[2021-01-25 15:40:23.929] [sharedprocess] [info] Renamed to /home/mike/.vscode-oss/extensions/pkief.material-icon-theme-4.5.0
+[2021-01-25 15:40:23.930] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2021-01-25 15:40:23.980] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme

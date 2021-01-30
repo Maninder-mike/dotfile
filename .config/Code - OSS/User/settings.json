@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "workbench.preferredLightColorTheme": "GitHub Dark",
+    "window.autoDetectColorScheme": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.venvPath": "~/.pyenv"
+}
