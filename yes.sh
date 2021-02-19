@@ -1,3 +1,6 @@
 #!/bin/sh
-echo "this is a github file..."
-whereis python3
+
+sudo apt update && sudo apt upgrade -y
+
+# echo "this is a github file..."
+# whereis python3
