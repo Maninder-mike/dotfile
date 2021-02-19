@@ -1,5 +1,7 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes1.sh)"
+curl https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes.sh | bash
 
-wget -qO- https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes1.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes.sh)"
 
-wget https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes1.sh
+wget -qO- https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes.sh
+
+wget https://raw.githubusercontent.com/Maninder-mike/dotfile/main/yes.sh
